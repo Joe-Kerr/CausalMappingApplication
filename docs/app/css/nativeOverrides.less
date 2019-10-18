@@ -1,0 +1,42 @@
+@import "vendors";
+
+body
+{
+	font-family: Helvetica;
+	font-size: 12px;
+	
+	background-color: #f9f9f9;
+	
+	width: 4000px;
+	height: 4000px;
+
+	#vendors.user-select(none);
+}
+
+p, span, div
+{
+	cursor: default;
+}
+
+header
+{
+	position: fixed;
+	pointer-events: none;
+	
+}
+
+fieldset
+{
+	margin-bottom: 10px;
+}
+
+legend
+{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+button:focus 
+{
+	outline:0;
+}

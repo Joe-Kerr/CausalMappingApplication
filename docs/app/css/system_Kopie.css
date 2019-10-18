@@ -1,0 +1,111 @@
+/*
+Load menu
+*/
+#lm_container
+{}
+
+#lmTable
+{
+	width: 640px; 
+	height: 320px; 
+	table-layout:fixed;	
+}
+
+#lmDatasources
+{
+	width: 180px;
+}
+
+#lmDatasources div
+{
+	overflow-y: scroll;  
+	height: 320px; 
+	margin: 0; 
+	padding: 0;
+}
+
+#lmDatasources ul 
+{
+	list-style: none inside none; 
+	margin: 0; 
+	padding: 0;
+}
+
+#lmDatasources li
+{
+	vertical-align:middle;
+}
+
+#lmFiles div
+{
+	
+	border-right: 1px solid black; 
+	border-left: 1px solid black; 
+	vertical-align: top;
+	
+	overflow-y: scroll;  
+	height: 320px; 	
+}
+
+#lmPreview
+{
+	width: 240px; 
+	vertical-align: top;
+}
+
+#lmPreviewPic
+{
+	border:1px solid #000000; 
+	xxxz-index:23;
+}
+
+.lmOpenFile
+{
+	margin-bottom: 5px;
+	background: none;
+}
+
+/*
+Save menu
+*/
+#smSaveContainer
+{
+	border-right: 1px solid grey;
+	border-top: 1px solid grey;
+}
+
+#smSaveContainer p 
+{
+	margin: 0;
+
+}
+
+.smLocalStorageSaves
+{
+  cursor: pointer;
+  
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-size: inherit;
+  text-align: inherit;
+
+  vertical-align: top;	
+  height: 22px;
+}
+
+.smIsSelected
+{
+	background-color: #e7e7e7;
+}
+
+.smLocalStorageSaves:hover,
+.smLocalStorageSaves:focus
+{
+  background-color: #eff5ff;
+
+}

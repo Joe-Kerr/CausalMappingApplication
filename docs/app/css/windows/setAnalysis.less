@@ -1,0 +1,117 @@
+#sfsTabWrapper
+{
+
+}
+
+#sfsTableWrapper
+{
+	width: 560px;
+	height: 400px;
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+#sfsChoice
+{
+	max-height: 480px;
+	overflow-y: scroll;
+}
+
+#sfsResult
+{
+	height: 480px;
+	max-height: 460px;
+	overflow-y: scroll;
+	padding-left: 4px;
+}
+
+/*	Matrix table */
+#sfsTable
+{
+	table-layout: fixed;
+}
+
+/* Header labels*/
+.sfsLabelX
+{
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+	white-space: nowrap;
+	max-width: 16px;
+	height: 120px;
+	overflow: hidden;
+	
+}
+
+.sfsLabelX span
+{
+	display: block;
+	-webkit-backface-visibility: hidden; /*anti aliasing hack*/
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* vertical "header" labels*/
+.sfsLabelY
+{
+	width: 150px;
+	max-height: 16px;
+	text-align: left;
+	overflow: hidden;
+	
+	/*need these for the overflow to work; for whatever fucking reason; stupid css*/
+	max-width: 150px;
+	white-space: nowrap;
+}
+
+.sfsMatrixDataCell
+{
+	width: 16px;
+	height: 16px;
+}
+
+.sfsHighlight
+{
+	background-color: #e3e4e5;
+}
+
+/* Tabular data*/
+.sfsResultsTable
+{
+	width: 400px;
+	border-collapse: collapse;
+}
+
+.sfsResultsTableHeader
+{
+	font-weight:bold;
+	border-bottom: 1px solid grey;
+	min-width: 200px;
+	max-width: 200px;
+}
+
+.sfsResultsTableSubHeader
+{
+	font-weight:bold;
+	border-bottom: 1px solid grey;
+}
+
+.sfsSubHeaderFirst
+{
+	width: 100px;
+	overflow: hidden;
+}
+
+.sfsSubHeaderSecond
+{
+	width: 270px;
+}
+
+.sfsSubHeaderThird
+{
+	width: 30px;
+}

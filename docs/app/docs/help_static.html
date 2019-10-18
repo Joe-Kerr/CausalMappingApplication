@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>	
+	<script type="text/javascript" src="../js/third_party/jquery-3.3.1.min.js"></script> 	
+    <script type="text/javascript" src="../js/third_party/jquery-ui.min.js"></script> 	
+	<link rel="stylesheet" href="../css/third_party/jquery-ui.min.css" />	
+	<link rel="stylesheet" href="../css/third_party/jquery-ui.theme.min.css" />	
+
+	<title>Causal Cognitive Mapping Application - Help Docs</title>
+	<style>
+		body
+		{
+			font-family: Helvetica;
+			font-size: 12px;
+			
+			background-color: #f9f9f9;
+		}	
+		
+		#hfContainer
+		{
+			line-height: 150%;
+		}
+
+		.hfSection
+		{
+			border-bottom-color: grey;
+			border-bottom-style: solid;
+			border-bottom-width: 2px;
+		}
+
+		.hfContents
+		{
+			border: 1px solid grey;
+			background-color: #f2f2f2;
+		}
+	
+	</style>
+ </head>
+ 
+<body>	
+
+<p style="color: red; font-weight: bold, text-style: italic">This is a temporary static help file copied "as is" from version 1 of the application. Changes in features are not yet reflected.</p>
+
+<div id="hfContainer"> <a name="top"></a> 
+
+<ul>
+<li> <a href="#hfModules">Application features</a> </li>
+<li> <a href="#hfActivities">Mapping activities</a> </li>
+</ul>
+
+
+<!--
+**
+**
+**
+	Activities
+**
+**
+**
+-->
+
+<div id="hfActivities">
+	<h2>Contents</h2>
+	
+	<div class="hfContents">
+	<a name="top"></a>
+	<ul>
+		<li><a href="#newStatement">Add a new statement</a></li>
+		<li><a href="#newLink">Add a new link</a></li>
+
+		<li><a href="#editText">Edit text of statement</a></li>
+		<li><a href="#changePolarity">Change polarity of a link</a></li>
+
+		<li><a href="#removeStatement">Remove a statement</a></li>
+		<li><a href="#removeLink">Remove a link</a></li>
+
+		<li><a href="#moveStatement">Move a statement</a></li>
+		<li><a href="#moveManyStatements">Move many statements</a></li>
+		<li><a href="#moveLinks">Move links</a></li>
+
+		<li><a href="#moveMap">Move the map</a></li>
+		<li><a href="#resizeMap">Resize the map</a></li>
+
+		<li><a href="#changeStyle">Change the style of statements</a></li>
+		<li><a href="#changeStyleLinks">Change the style of links</a></li>
+
+		<li><a href="#addSet">Add a set to a statement</a></li>
+		<li><a href="#removeSet">Remove a set from a statement</a></li>
+		<li><a href="#renameSet">Change the name of a set</a></li>
+		<li><a href="#manageManySets">Manage a larger number of sets</a></li>
+
+		<li><a href="#undo">Undo an action</a></li>
+
+		<li><a href="#views">Add and manage views</a></li>
+
+		<li><a href="#analyses">Conducting analyses</a></li>
+	</ul>
+	</div>
+
+	<div class="hfBody">
+		<a name="newStatement"></a>
+		<div class="hfSection">
+		<h2>Add a new statement</h2>
+		<p>
+		To add a new statement you have two options:<br>
+		1. Double click anywhere on the map and a single statement will appear at the position of your cursor.<br><br>
+		2. Go to the menu "Edit"->"Batch add" where you can add multiple statements at once.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="newLink"></a>
+		<div class="hfSection">
+		<h2>Add a new link</h2>
+		<p>
+		To link two statements together switch into link mode (click on the link button under the menu on the top left), select the origin statement and then select the target statement.
+		</p>
+		<p>
+		Alternatively, for connecting statements in quick succession, hover your mouse over the first statement you want to start your connection. Hold down the right mouse button and consecutively hover over all other statements to be connected.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="editText"></a>
+		<div class="hfSection">
+		<h2>Edit text of statement</h2>
+		<p>
+		To edit the text of a statement double click on the statement. Alternatively right click on the statement and the context menu appears. Click on the edit button. For yet another alternative click on the menu item "Edit" and select "Batch edit". This allows you to edit many statements at once.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="changePolarity"></a>
+		<div class="hfSection">
+		<h2>Change polarity of a link</h2>
+		<p>
+		To change the polarity of a link right-click on the link. This will show the context menu from where you can switch the polarity.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="removeStatement"></a>
+		<div class="hfSection">
+		<h2>Remove a statement</h2>
+		<p>
+		To remove a statement click on it with the right mouse button. The context menu appears. Click on delete.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="removeLink"></a>
+		<div class="hfSection">
+		<h2>Remove a link</h2>
+		<p>
+		Click on the link with the right mouse button. The context menu appears. Click on delete.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="moveStatement"></a>
+		<div class="hfSection">
+		<h2>Move a statement</h2>
+		<p>
+		To move a statement click on it with your left mouse button and keep the button pressed. Now move your mouse to the desired location. Notice that the statement will be following your cursor. Release the mouse button to drop the statement at the location of your cursor.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="moveManyStatements"></a>
+		<div class="hfSection">
+		<h2>Move many statements</h2>
+		<p>
+		To move many statements you need to draw a select box around them. To do so move your mouse to an empty map space. Now push and hold the left mouse button. Drag the rectangle over all statements you wish to move. Release the mouse button.
+
+		If you are unhappy with your selection, simply click on an empty map space to unselect. Otherwise you can now push and hold the left mouse button over a selected statement. Move your cursor to the desired location and release the mouse button.
+		<br><br>
+		<strong>Notice</strong> that the select box must fully cover a statement in order to make that statement join the selection.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="moveLinks"></a>
+		<div class="hfSection">
+		<h2>Move links</h2>
+		<p>
+		There is no need to move links yourself because the application will take care of it.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="moveMap"></a>
+		<div class="hfSection">
+		<h2>Move the map</h2>
+		<p>
+		To move the entire map go to the menu "Edit"->"Manipulate map". Notice the arrows that allow you to move the map in the specific direction. The input box in the middle specifies the amount of pixels you wish to move the map.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="resizeMap"></a>
+		<div class="hfSection">
+		<h2>Resize the map</h2>
+		<p>
+		To resize the map you have two options in the menu "Edit"->"Manipulate map":
+		<br><br>
+		1. Enter a desired width and/or height either in pixels or percentage terms. <br>
+		2. Click on the "crop workspace" button to automatically adjust the map space to the space the statements occupy.
+		</p>
+		<p>
+		The map will automatically be resized when you drag and drop a statement outside of the map boundaries.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="changeStyle"></a>
+		<div class="hfSection">
+		<h2>Change the style of statements</h2>
+		<p>
+		To change the style of your statements you have two options:<br><br>
+		1. For individual statements right click on them and the context menu appears. Click on style.<br>
+		2. For many statements click on the menu "View"->"Style". There you can set the default style that is applied to every new statement. Additionally, you can change the style of many statements.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="changeStyleLinks"></a>
+		<div class="hfSection">
+		<h2>Change the style of links</h2>
+		<p>
+		To change the style of your links you have two options:<br><br>
+		1. For individual links right click on them and the context menu appears. There you can change colour and link style.<br>
+		2. For many links click on the menu "View"->"Style". There you can set the default style that is applied to every new links. Additionally, you can change the style of many links.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="addSet"></a>
+		<div class="hfSection">
+		<h2>Add a set</h2>
+		<p>
+		To add a set to a statement right click on it and the context menu appears. Click on an empty space in the bottom most box. If a drop down list appears containing the desired set, just click on it. If the desired set is not present, notice the blinking cursor which indicates that you can enter the new set. Hit enter after you have typed in the set.<br><br>
+		You have another option to add new sets to the map but not to a specific statement. To do so click on the menu "Settings"->"Manage sets". Click in the top left box and enter the new set and confirm with enter.
+		<br><br>
+		If you have <strong>selected multiple statements</strong>, the behaviour of adding sets becomes relative. The initial selection is empty. All sets you then add will be assigned to the selected statements. This difference in behaviour is rooted in a conflict of managing statement sets if individual statements have different sets. So, if you have statements "A" and "B" with sets "alpha" and "beta" respectively, which sets to display in a multi-selection of "A" and "B"? The union would show "alpha" and "beta". What if you wanted to add "beta"? The relative approach ensures that adding sets to multiple statements works as expected.
+		<br><br>
+		Notice that set names must begin with an alphabetic character and contain only alphanumeric characters or whitespaces for technical reasons.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="renameSet"></a>
+		<div class="hfSection">
+		<h2>Change the name of a set</h2>
+		<p>
+		To rename a set go to the menu "Settings"->"Manage sets". Click on the set you wish to rename in the top left box.<br><br>
+		<strong>Notice</strong> that set names must begin with an alphabetic character and contain only alphanumeric characters or whitespaces for technical reasons.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="removeSet"></a>
+		<div class="hfSection">
+		<h2>Remove a set from a statement</h2>
+		<p>
+		To remove a set from a statement right click on it and the context menu appears. You should see the set in the bottom most box. Notice the little "x" in front of the set. Click on it and the set will be removed from the statement. This will <strong>not</strong> delete the set from the map.<br><br>
+		To delete the set from the map go to the menu "Settings"->"Manage sets". The top left box contains all available sets. Click on the little "x" in front of the set to delete it. 
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+
+		<a name="manageManySets"></a>
+		<div class="hfSection">
+		<h2>Manage a larger number of sets</h2>
+		<p>
+		If you have to manage many sets and know them in advance, the following workflow is recommended:<br><br>
+		1. Go to the menu "Settings"->"Manage sets".<br>
+		2. The top left box contains all available sets. The box is empty if there are no sets.<br>
+		3. Click in the box and notice the blinking cursor. Type in all your sets. Confirm with enter after each new set.<br><br>
+
+		With these preparations finished close the menu and go back to the main map screen. Now sort the statements you wish to add by their sets. <br><br>
+
+		1. Go to the menu "View"->"Active defaults".<br>
+		2. Notice that the pane displays all available sets.<br>
+		3. Check the boxes in accordance with the sets that fit with the next statements you are going to add.<br>
+
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="undo"></a>
+		<div class="hfSection">
+		<h2>Undo an action</h2>
+		<p>
+		To undo an action click on the button with the curved arrow right beside the link button under the main menu on the top left.
+		</p>
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+
+		<a name="views"></a>
+		<div class="hfSection">
+		<h2>Add and manage views</h2>
+		<p>
+		Views are like sets for visual purposes. You can assign views to statements and choose to display statements of a particular view only. This makes working with very large maps easier, e.g. by hiding long cross links. When working with views you may notice greyed-out statements. These are the direct neighbours of non-active views and their purpose is to not break the context of the active view statements. This is, of course, still just a compromise since their context in turn is lost. Do keep this in mind when working with views.
+		</p>
+
+		<p>
+		There always is a default view "View 1". To add a view click the drop down field and select "New". You now can switch to the new view by clicking on the arrow keys or by selecting it in the drop down field. Each statement will be assigned to the currently active view. You can change views for individual or multiple statements via their context menu.
+		</p>
+
+		<p>
+		Right click on the drop down field for further options. You can toggle whether to show all statements and you can also create sets from your views. The view-all mode is cancelled whenever you switch a view. 
+		</p>
+
+		<p>If you do not have a need for sets, keep selected the default value.</p>
+
+
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+		<a name="analyses"></a>
+		<div class="hfSection">
+		<h2>Conduct analyses</h2>
+		<p>Some of the available analyses restrict the interactivity of the map.</p>
+
+		<p>
+		Analyses are bound to the state of the map data at the time of starting a respective analysis.
+
+		In principle, if you change the data while an analysis is running, you will invalidate the analysis without corrective measures.
+
+		Similarly, if you work with analysis results, but change the underlying data, any data displayed that is based on analysis results, will be invalid. Therefore, the corrective measure to be taken would have to be to restart the analysis.
+		</p>
+
+		<p>
+		This may not always be desirable. On a large map, for instance, a cluster analysis may take a few seconds. You would quickly run out of patience if every change event on the map triggered a restart of the analysis. 
+
+		Or, think about a situation where you accidentally change your map yet base conclusions on the analysis data. The consequences may be catastrophic.
+		</p>
+
+		<p>
+		Therefore, most of the analyses automatically restrict the interactivity of the map after you have started them. Interactivity is restored once all analysis windows are closed. You can manually switch back the edit or link mode at your own risk.  
+		</p>
+
+		<br>
+		<a href="#top">Back to top...</a>
+		</div>
+
+	</div>
+	</div>	
+
+
+<!--
+**
+**
+**
+	Modules / Featuers
+**
+**
+**
+-->
+
+	<div id="hfModules">
+		<h2>Contents</h2>
+			<div class="hfContents">
+			<ul>
+				<li><a href="#Activity_log">Activity log</a></li>
+				<li><a href="#Central_analysis">Central analysis</a></li>
+				<li><a href="#Cluster_analysis">Cluster analysis</a></li>
+				<li><a href="#Context_viewer">Context viewer</a></li>
+				<li><a href="#Domain_analysis">Domain analysis</a></li>
+				<li><a href="#Feedback_loop_analysis">Feedback loop analysis</a></li>
+				<li><a href="#Fuzzy_cognitive_map_analysis">Fuzzy cognitive map analysis</a></li>
+				<li><a href="#Help_documentation">Help documentation</a></li>
+				<li><a href="#ManipulateMap">Manipulate map</a></li>
+				<li><a href="#MapHistory">Map history</a></li>
+				<li><a href="#Statement_merge_assistant">Statement merge assistant</a></li>
+				<li><a href="#Network_client">Network client</a></li>
+				<li><a href="#Statement_browser">Statement browser</a></li>
+				<li><a href="#Batch_add_statements">Batch add statements</a></li>
+				<li><a href="#Batch_edit_statements">Batch edit statements</a></li>
+				<li><a href="#Image_exporter">Image exporter</a></li>
+				<li><a href="#About_saving">About saving</a></li>
+				<li><a href="#Set_analysis">Set analysis</a></li>
+				<li><a href="#Signal_words_analysis">Signal words analysis</a></li>
+				<li><a href="#Similarity_analysis_keywords">Similarity analysis keywords</a></li>
+				<li><a href="#Similarity_analysis_metric">Similarity analysis metric</a></li>
+				<li><a href="#Similarity_analysis_word_overlap">Similarity analysis word overlap</a></li>
+				<li><a href="#Summary_statistics">Summary statistics</a></li>
+				<li><a href="#Word_count_analysis">Word count analysis</a></li>
+				</ul> 
+			</div>
+			<div class="hfBody">
+			
+			<a name="Activity_log"></a><div class="hfSection"><h2>Activity log</h2><h3>Purpose</h3>
+			<p>
+			Particularly for legal or scientific application you may require a rigorous audit trail of your mapping sessions. 
+			<br><br>
+			Remember that each cognitive map is a snapshot or an (intermediary) end-product. It does not show how it came about. One way to show this historic process is a log.  
+			</p>
+
+
+			<h3>Usage</h3>
+			<p>
+			The activity log is operated with the start and stop buttons. 
+			<br><br>
+			You can choose to continue logging even if the activity log window is closed. This way it will not occupy work space while you are mapping. Do not forget to save the log once you are done with your session.
+			<br><br>
+			You can also choose to list all screen elements that existed before you started the logging process. This is important if you continue working on an existing map and ensures that an inspector does see a complete log.
+			</p>
+
+			<h3>Sources</h3>
+			<p>
+			Ackermann, F. and Eden, C. (2005), "Using Causal Mapping with Group Support Systems to Elicit an Understanding of Failure in Complex Projects: Some Implications for Organizational Research", Group Decision &amp; Negotiation, Vol. 14 No. 5, pp. 355-376.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Central_analysis"></a><div class="hfSection"><h2>Central analysis</h2>
+			<h3>Purpose</h3>
+
+			<p>
+			A central analysis seeks to find important statements in a map and hence central issues. Importance is measured by the number of "neighbours", i.e. links in from, and out to, other statements. The central analysis considers the neighbours of the neighbours up to a desired depth (i.e. the neighbours of the neighbours of the neighbours...etc.) and adds the numbers to a total score per statement. The higher the number of neighbours the greater the importance. The most central statements can then be used for a summary of the map or can be fed to other analyses that require some seed data.
+			</p>
+
+			<img src="modules/mod_central_score/help/central_score_explained.png"><p>
+			It can be argued that the central analysis is better capable to deal with outliers than the domain analysis. That is because in a domain analysis a statement with many neighbours gets a high score. But if this statement's neighbours only have a relatively small number of neighbours themselves, the statement may not be that important as its domain score suggests. Since the central analysis measures neighbours' neighbours it can even out these "local hot spots".
+			</p>
+
+
+			<p><strong>Depth of neighbours</strong></p>
+			<p>
+			There is no rule concerning the right depth of neighbours. Looking at different depth settings is a good way forward.
+
+			Care should be taken on maps that have many paths with varying depths. If there are only few paths with high depth whereas the rest has substantial lower depths, the high depth paths' scores keep growing and lowering the relative scores of the low depth paths.
+
+
+			Just imagine a path consisting of three statements A-&gt;B-&gt;C. The maximum depth, of this path, is reached after layer 2 for statement A. That means the score of A will not grow beyond layer 2. Now oppose a chain from some statement D to another statement K. This chain will grow beyond layer 3.
+			</p>
+
+
+			<p><strong>Distance weighting</strong></p>
+
+			<p>
+			A decay function can be applied to counteract inflation of importance. That means you might want to assign diminishing weight to more distant neighbours.
+			</p>
+
+
+			<h3>Usage</h3>
+
+
+
+			<p>
+			The central analysis window provides you the number of neighbours' neighbours per each statement. Depths between 0 and 5 are displayed. A decay can be set to put less weight on neighbours that are further away from the statement in focus. The decay function accounts for distance by division by the reciprocal of the respective order of neighbours. The raw data can be copied to your clipboard for use in external programmes such as Microsoft Excel.
+			</p>
+
+			<p><strong>Visual aids</strong></p>
+			<p>
+			You also get two visual aids. A histogram shows you the distribution of scores by percentile ranks. 
+
+			<br><br>
+
+			On the map itself, statements are coloured as a heatmap. The colouring is temporary and lasts until you close the analysis window. The heatmap is used as a way to visualise a range of numbers. It starts from blue over green, yellow, orange and ends at red. This colour gradient matches the number range in ascending order (blue lowest numbers, red highest numbers).
+
+			For technical reasons central scores are normalised and put into a range of 255.
+			</p>
+
+
+			<h3>Sources</h3>
+
+			<p>Eden, C., Ackermann, F. and Cropper, S. (1992), "The Analysis of Cause Maps", Journal of Management Studies, Vol. 29 No. 3, pp. 309-324.</p>
+
+			<p>Reynolds, M. and Holwell. S. (2010) "Systems Approaches to Managing Change: A Practical Guide", Springer, London.</p>
+			<p><a href="#top">Back to top...</a></p></div>
+			<a name="Cluster_analysis"></a><div class="hfSection"><h2>Cluster analysis</h2><h3>Purpose</h3>
+			<p>
+			Cluster analysis can be described as a way to put together elements into groups. Usually, the grouping is done by similarity, i.e. if elements are similar to each other, they will be assigned to the same cluster.
+			</p>
+
+			<p>
+			In reality, some authors claim that we do not even know when a cluster a cluster is.
+
+			Some other authors say that cluster analysis is not just a kind of analysis but a way of knowing.
+
+
+			Consider this as an indicator of the breadth of the field of cluster analysis.
+
+			</p>
+
+			<p>
+			For the present purposes, cluster analysis is taken as technique to group statements into sets. This process is data-driven. That means the data determines, through a measure, the grouping. This is unsupervised as opposed to, for instance, when you group statements into custom sets yourself which is supervised. 
+
+			The advantage is that the grouping is more authentic or closer to the actual data. The groups emerge from the data rather than being fit into the data.
+
+			</p>
+
+			<p>
+			But what are these groups good for? These groups or clusters contain statements more closely related to one another than to the rest of the map. In other words they indicate themes in a map.
+
+			These themes are ideal for finding key issues that may be relatively more important. 
+			</p>
+
+
+
+
+			<h3>Usage</h3>
+			<p>
+			Currently, clustering is possible by Jaccard index and hierarchy drill down.
+			</p>
+
+			<h3>Jaccard index</h3>
+			<p>
+			The Jaccard index measures similarity by comparing statements pairwise for how many neighbours (in and out linking statements) they have in common.
+
+
+			The standard threshold is 0. That means similarity just has to be greater than 0%. Put differently pairs are considered not similar if they do not share any neighbour. Naturally, this analysis will find all distinct clusters in a map that have no links to any other cluster.
+
+			Increasing the threshold will gradually rip apart the clusters. Clusters that stay together longer are stronger.
+
+			The maximum setting is 1 (0.999...) meaning that statement pairs must share the same neighbours. Since this is more often than not the case, the analysis will form many clusters of size 1. 
+			</p>
+
+
+			<p>
+			Notice that the algorithm assigns each statement only once (clusters are mutually exclusive) and that equal similarity scores of two or more statements are resolved in a first come first serve manner.
+			</p>
+
+			<p>
+			The analysis window provides you an input box for setting a custom threshold. On larger maps the analysis may take a couple of seconds. The analysis results are presented in tabular form as well as visually on the map by giving clusters of statements distinct colours. The colouring is temporary and will be removed once you close the analysis window. You can also assign each cluster to a set.
+			</p>
+
+
+			<h3>Hierarchy drill down</h3>
+			<p>
+			The clustering by hierarchy takes an initial group of statements (seed set). For each seed statement the entire chain of in-linking statements is assigned to a cluster (including the seed statement). That means for every initial statement the chain of argument is drilled down. Phrased in terms of similarity, all statements belong to a cluster if they are descendants of a seed statement.
+			</p>
+
+			<p>
+			Statements can occur in multiple clusters so that clusters are not mutually exclusive.
+			</p>
+
+
+
+			<p>
+			 
+			</p>
+
+
+			<p>
+
+
+			By default, all head statements are preselected as seed statements. You can disable this option. Additionally, you can specify a custom group of statements to be used as seed statements. On larger maps the analysis may take a couple of seconds. The analysis results are presented in tabular form as well as visually on the map by giving clusters of statements distinct colours. If a statement is a member of multiple clusters, the statement will be coloured respectively. If a custom seed statement is a member of another cluster, it will not be multi-coloured but retain its distinct single colour and get a red outline. The colouring is temporary and will be removed once you close the analysis window. You can also assign each cluster to a set.
+
+
+			</p>
+
+
+			<h3>Sources</h3>
+
+			<p>Reynolds, M. and Holwell. S. (2010) "Systems Approaches to Managing Change: A Practical Guide", Springer, London.</p>
+
+			<p>Tan, P.-N., Steinbach, M. and Kumar, V. (2005), "Introduction to Data Mining", Pearson, USA.
+			</p>
+
+			<p>Uprichard, E. (2009) "7. Introducing Cluster Analysis: What Can It Teach Us about the Case?" in Byrne, D. and Ragin, C.C. (eds), The SAGE Handbook of Case-Based Methods, SAGE Publications Ltd, London.
+			</p>
+			<p><a href="#top">Back to top...</a></p></div>
+			<a name="Context_viewer"></a><div class="hfSection"><h2>Context viewer</h2><h3>Purpose</h3>
+			<p>
+			One of the most important principles of Causal Cognitive Mapping, which also goes back to its theoretical roots in Personal Construct Theory, is that the meaning of a statement is implied by its neighbours. Consider the statement "buy a new computer". The meaning of it likely differs depending on whether you considered it in relation to "new technology on the market" or "loading a document takes too long". 
+			<br><br>
+			Therefore, a facilitative feature is the context viewer. It extracts a statement in focus into a new screen. This is very helpful for "busy" maps with many cross links on the screen or statements far apart. 
+			</p>
+
+			<p><strong>Uses</strong></p>
+			<p>
+			Use cases range from simple isolated inspection to extracting a certain statement and its neighbours for presentation purposes. You could for instance extract the top ranking statements by central score as a map summary.
+			</p>
+
+			<h3>Usage</h3>
+			<p>
+			In the context viewer window the middle statement is the statement in focus. Above it, you find the neighbours the statement in focus links to whereas at the bottom are all the ones that link into it. With the control buttons you can browse through the statements. Alternatively, just click on any of the statement shown in order to jump to it.
+			</p>
+
+
+
+			<h3>Sources</h3>
+
+			<p>Reynolds, M. and Holwell. S. (2010) "Systems Approaches to Managing Change: A Practical Guide", Springer, London.</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Domain_analysis"></a><div class="hfSection"><h2>Domain analysis</h2><h3>Purpose</h3>
+			<p>
+			A domain analysis counts how many links go in and out per each statement. The higher a statement's count the more important the statement has to be.
+			</p>
+
+
+			<p>
+			It can be said that the domain analysis only detects local importance. A statement with many neighbours but whose neighbours have not many neighbours themselves may not have that much of a weight in relation to the whole map.
+			</p>
+
+
+			<p>
+			Nonetheless, the biggest advantage of the domain analysis is that it can be conducted on paper/whiteboard if need be.
+
+			On a computer, the domain analysis is rather useful for providing input data to other analyses such as cluster analysis.
+
+			A central analysis is likely a better choice for finding important statements as it takes a holistic view of importance. 
+			</p>
+
+
+
+
+			<h3>Usage</h3>
+
+			<p>
+			The domain analysis window provides you the number of neighbours per each statement.
+			</p>
+
+			<p>
+			You also get two visual aids. A histogram shows you the distribution of scores by percentile ranks. 
+
+			<br><br>
+
+			On the map itself, statements are coloured as a heatmap. The colouring is temporary and lasts until you close the analysis window. The heatmap is used as a way to visualise a range of numbers. It starts from blue over green, yellow, orange and ends at red. This colour gradient matches the number range in ascending order (blue lowest numbers, red highest numbers).
+
+			For technical reasons central scores are normalised and put into a range of 255.
+			</p>
+			<p><a href="#top">Back to top...</a></p></div>
+			<a name="Feedback_loop_analysis"></a><div class="hfSection"><h2>Feedback loop analysis</h2><h3>Purpose</h3>
+			<p>
+			Feedback loops rank among the most important phenomena in science.
+
+			Feedback loops are implied when talking about exponential growth or decay, engineering certain control "systems" or simply when talking with somebody or turning on the hot water for your bath.
+
+
+			In general, one calls something a feedback loop if some initial thing causes one or more things that impact back on the initial thing.
+
+			</p><p><strong>Examples and types</strong></p>
+			Considering the example of exponential growth, that what grew grows itself something which grows itself something (interest, animals, humans)... This is called positive feedback. Something reinforces itself.
+
+			<br><br>
+
+			If you turn on the hot water flow for your bath, initially, you sense it as not so hot, but then quickly as hot ("Ouch, too hot"). The delayed temperature information causes you to turn up the cold flow. The new delayed temperature information causes you to turn the hot flow up again ("Hooo, too cold"). This goes on for a bit ("Better, but still a little too hot/cold") until you reach a satisfactory temperature. That is an example for negative feedback. Something balances itself.
+			<p></p>
+
+			<p><strong>Consequences</strong></p>
+			<p>
+			An undesirable consequence of a positive feedback loop can be that something slips out of control whereas in case of a negative feedback loop something gets stuck in the act of balancing. Therefore, you want to detect feedback loops and rigorously investigate them.
+			</p>
+
+			<p><strong>In cognitive / cause maps</strong></p>
+			<p>
+			In a cognitive map or cause map a feedback loop is a chain of statements that starts at statement A and comes back to that statement A. You cannot readily read off the map whether it is a positive or negative loop. This is always contextual.
+			</p>
+
+
+			<h3>Usage</h3>
+			<p>
+			In the Causal Cognitive Mapping Application, a feedback loop is detected through translating a map into all possible paths of statements. During that process whenever the next path segment to be added is already contained within the path constructed up to that point the loop is extracted.
+			</p>
+			<p>
+			The window of the feedback loop analysis outputs the progress of the analysis. You might not recognise this on small maps where the analysis does not take much time.
+			<br><br>
+			Once the analysis is done, all feedback loops are displayed. You can click on each statement number to jump to that statement on the map. You can assign the feedback loops to sets using the control button.
+			</p>
+
+			<p><strong>Limitations</strong></p>
+			<p>
+			Think of a map in terms of paths. So, if there is a triangle pattern where A links to B and C, you have two paths: A-&gt;B and A-&gt;C. The algorithm used moves from possible path to path. For each path being assembled, path segments need to be saved to memory. Each path can yield a feedback loop which is then saved to memory as well.<br><br>
+			Therefore, in principle, if you have a large enough map with a large enough number of feedback loops, your computer might run out of memory. 
+			</p>
+
+
+			<p>
+			In practice, though, this is unlikely. The World3 model converted to a cognitive map consists of 307 statements and 473 links. The model is based on several causal loop diagrams and is highly inter-connected. It holds 86 feedback loops. The analysis takes a bit over 0.5 seconds and consumes around 7 megabytes of RAM.
+			</p>
+
+
+			<h3>Sources</h3>
+
+			<p>Reynolds, M. and Holwell. S. (2010) "Systems Approaches to Managing Change: A Practical Guide", Springer, London.</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Fuzzy_cognitive_map_analysis"></a><div class="hfSection"><h2>Fuzzy cognitive map analysis</h2><h3>Purpose</h3>
+			<p>
+			The fuzzy analysis (from Fuzzy Cognitive Mapping) is an experimental feature. No further help documentaiton is available at the moment.
+			</p>
+
+			<h3>Usage</h3>
+			<p>
+			Scenarios let you alter statement weights.
+			</p>
+
+			<p>
+			The top graph shows accumulated scores.
+			</p>
+
+			<p>
+			Equilibrium is reached once the last difference of a statement of an interation is less than 0.001 or 100 iterations have passed.
+			</p>
+			<p><a href="#top">Back to top...</a></p></div>
+			<a name="Help_documentation"></a><div class="hfSection"><h2>Help documentation</h2><h2>Help</h2>
+			<p>
+			This is the full help documentation.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="ManipulateMap"></a><div class="hfSection"><h2>Manipulate map</h2><h3>Usage</h3>
+			<p>
+			The arrow control buttons move the entire map in that direction by the amount specified in the input field.
+			</p>
+
+			<p>
+			The width and height values resize the workspace either relatively in percent or absolutely by the specified amount in pixels.
+			</p>
+
+			<p>
+			The workspace can be cropped. This will adjust the workspace size automatically in relation to the locations of statements on the map.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="MapHistory"></a><div class="hfSection"><h2>Map history</h2><h3>Purpose</h3>
+			<p>
+			The drawback of a causal cognitive map is its static nature. The map, i.e. the output of causal cognitive mapping, is essentially an image. A single image can only ever capture one instance in time. That means the history of the entire mapping session is lost.
+			</p>
+			<p>
+			The map history mitigates this drawback by creating a video of when in time statements and arrows were added to the map.
+			</p>
+
+
+			<h3>Usage</h3>
+			<p>
+			The map history consists of two parts:
+			</p><ul>
+			<li>on map interaction,</li>
+			<li>file export.</li>
+			</ul>
+			<p></p>
+
+			<p>
+			The on map interaction is controlled via the start and stop buttons. This will run a live video of the map creation process. With the "follow mode" you can make the screen jump to the element that is being added. The time between steps controls when the next element from the timeline is added.
+			</p>
+			<p>Both options can be changed while the live video is running.</p>
+
+			<p>
+			The file export function lets you save the map history to an animated gif file for use in web presentations or other interactive media.
+			</p>
+			<p>
+			The file will be saved to the image directory in the application's files directory. If a file with the same name already exists and you did not tick the overwrite checkbox, a counter number is appended to the file.
+			</p>
+			<p>
+			The animation speed can be controlled through the "Delta time" input box.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Statement_merge_assistant"></a><div class="hfSection"><h2>Statement merge assistant</h2><h3>Usage</h3>
+			<p>
+			Merge two or more statements together. Most basically, enter the desired statements to be merged. Separate statement numbers by comma/s. Confirm with the "Merge" button. This will merge all statements you have provided. As a result a new statement will be inserted at the average position of the statements entered. At the bottom of the window you see the text content of the associated statement numbers you have specified for merging.
+
+			</p><p><strong>Options: </strong></p> You can enter new the text content for the merged statement. You can also specify a lead statement. That means instead of adding a new statement to the map, all statements to be merged will be merged into the lead statement. 
+			<p></p>
+			<p><strong>Nice to know:</strong> If you open the merge window while having multiple statements selected, these statements will be preselected for merging.
+			</p>
+
+			<p><a href="#top">Back to top...</a></p></div>
+			<a name="Network_client"></a><div class="hfSection"><h2>Network client</h2><h2>About</h2>
+			<p>
+			This feature requires a server. The server is not yet available for testing or purchasing.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Statement_browser"></a><div class="hfSection"><h2>Statement browser</h2><h2>Usage</h2>
+			<p>
+			This is an advanced search and filter tool. 
+			</p>
+
+			<p>
+			You can display statements that contain or do not contain certain keywords.  Currently displayed statements can be selected on the map. Clicking on a statement moves the screen to that statement on the map. The "auto"-checkbox, if enabled, will automatically add your phrase to the filter list. 
+			</p>
+
+			<p>
+			You can use <strong>regular expressions</strong> as filter phrase. Regular expressions need to be enclosed in dashes: /^your regex$/
+			</p>
+
+			<p>
+			If you are unfamiliar with regular expressions, please see the introductory material on developer.mozilla.org or wikipedia. Some useful expressions may be:
+			</p>
+
+			<ul>
+				<li>/^word/: Matches all statements that begin with "word".</li>
+				<li>/word$/: Matches all statements that end with "word".</li>
+				<li>/key|word/: Matches all statements that contain either "key" or "word".</li>
+			</ul><p><a href="#top">Back to top...</a></p></div>
+			<a name="Batch_add_statements"></a><div class="hfSection"><h2>Batch add statements</h2><h3>Usage</h3>
+			<p>
+			The batch add window shows you control elements and initially one text field. You can add more text fields via the control button. Each text field represents a new node. 
+
+			If you are done editing, do not forget to push the control button. This will insert your new statements into the map.
+			</p>
+
+			<p>
+			The first text area has a special function in conjunction with the "csv"-button. You can copy and paste a list of statements into the first text area and separate statements will be generated for you.
+
+			The statements you paste in need to be separated by line breaks. That is usually the case when you hit enter after each statement in a text editor or when you copy the statements from Excel (column).
+			</p>
+			<p><a href="#top">Back to top...</a></p></div>
+			<a name="Batch_edit_statements"></a><div class="hfSection"><h2>Batch edit statements</h2><h3>Usage</h3>
+			<p>
+			The batch edit window shows you a scrollable list of all statements on the map. The content of each statement is contained within a text area for instant editing.
+			</p>
+
+
+			<p>
+			Possible use cases are:
+
+			</p><ul>
+			<li>Proofreading for typos, grammar, etc.</li>
+			<li>Copy and pasting text into several statements or extracting text out of them.</li>
+			<li>As a mapping style where you first add and arrange empty statements on the map and after that fill in the text content.</li>
+			</ul>
+
+			<p></p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Image_exporter"></a><div class="hfSection"><h2>Image exporter</h2><h3>Purpose</h3>
+			<p>
+			Save the currently active map into an image file (png).
+			</p>
+
+
+			<h3>Usage</h3>
+			<p>
+			The bottom part of the window shows a preview.
+			</p>
+			<p>
+			The control buttons allow you to zoom the map to a different level. You can also manually enter a zoom level. Type it in and click out of the input box to confirm. Levels greater than 10 are rounded. You can also disable the text which is useful for higher zoom levels.
+			</p>
+			<p>
+			Notice that if the generated image looks pixelated, this is due to the zoom level of your image viewer/editor. Zoom in to 100% and it looks fine.
+			</p>
+
+			<h3>Images slices (red lines)</h3>
+			<p>
+			Image manipulation is an expensive, "memory-hungry" operation. Therefore, images are sliced into squares of 4000 x 4000 pixels. That means only ever one square is loaded into memory and stored on your hard disk. The red lines in the preview picture indicate the slices.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="About_saving"></a><div class="hfSection"><h2>About saving</h2><h2>Save to Disk</h2>
+			<p>
+			This will save your map to your hard disk via the current browser's "Save to" dialogue.
+			<br><br>
+			Beware that some internet browsers suppress the "Save to" dialogue and instead automatically save the file to a default directory. In that case the file name will be "map.sav". The "Save to" dialogue can be enabled in your browser settings.
+			</p>
+
+			<h2>Save to Virtual Storage</h2>
+			<p>
+			This will save your map to the current browser's "Local Storage". This will automatically make available the save file in the "Open menu". 
+			<br><br>
+			Beware that some browser security settings delete the "Local Storage" when the browser is closed or block access to it entirely. You can set exception in your browser settings that keep the data for a specified website.
+			</p>
+
+			<h2>About the "Open map" menu</h2>
+			<p>
+			The menu displays maps stored in the virtual storage and in the files folder.
+			<br><br>
+			If you want to open files that are located anywhere else on your hard disk, click on the "Import"-button in the lower left corner.
+
+			<br><br>
+			Notice the "Files folder" category. This is only relevant in the offline application where maps you saved to the files folder will be displayed in that category. In the online version, i.e. in your browser, the maps that are shown in the "Files folder" category are maps on the server for you to play with. Maps you save will never be publicly available.    
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Set_analysis"></a><div class="hfSection"><h2>Set analysis</h2><h3>Purpose</h3>
+			<p>
+			Sets, in Causal Cognitive Mapping, are categories of statements. You can either define them by yourself or obtain sets from analyses such cluster analysis. 
+			</p>
+
+			<p>
+			Sets are a powerful way to summarise your map.
+			</p>
+
+			<h3>Usage</h3>
+			<p>
+			In the set summary window you first can choose which sets you wish to summarise.
+			<br><br>
+			After that you get a summary in matrix and tabular form. Both show cross links between sets.
+
+
+			The matrix view puts the sets in relation to each other. If a cell is coloured, it means that the set on the left links to the sets on top. If you hover over the coloured square, the number of links is shown. 
+
+			The colours follow a heat map gradient. Blue represents the relative lowest number of cross links. The further the colour gradient moves toward red a relative higher number of cross links is shown.
+
+
+			The tabular view shows essentially the same data but in tabular form.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Signal_words_analysis"></a><div class="hfSection"><h2>Signal words analysis</h2><h3>Purpose</h3>
+			<p>
+			Cognitive maps and cause maps are not just directed graphs, and therefore suitable for mathematical analyses, but each statement contains text. Hence linguistic analyses can be applied as well.
+			</p>
+
+			<p>
+			Two simple yet powerful analysis techniques search for prescriptive words and "glue" words.
+			</p>
+
+			<p>
+			Prescriptive words such as must, ought or should are best to be avoided altogether in Causal Cognitive Mapping. These words may hinder map development since they imply lack of alternatives. If you for instance assume that you must do "A", naturally you may not consider doing "B". A positive side effect is that you save words since instead of "must do A" you can just write "do A".
+			</p>
+
+			<p>
+			Glue words, such as in order to, due to, through or because, are not bad per se. They may indicate though that your single statement may actually be expressed as two statements. That is because glue words merge two (main/sub-) clauses causally. If you say for example "I always do A because of B", then you can map this as B-&gt;A. 
+
+
+			</p>
+
+			<h3>Usage</h3>
+			<p>
+			In the analysis window you get a list of statements. You can click on a statement number to jump to that statement on the map.
+			</p>
+
+			<h3>Sources</h3>
+
+			<p>Reynolds, M. and Holwell. S. (2010) "Systems Approaches to Managing Change: A Practical Guide", Springer, London.</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Similarity_analysis_keywords"></a><div class="hfSection"><h2>Similarity analysis keywords</h2><h2>Purpose</h2>
+			<p>
+			The analysis for similarity discussed here is about text similarity of statement pairs for the purpose of finding undiscovered links or statements that can be merged.
+
+			Both text similarity and other similarity types (e.g. shared neighbours) are also integral part of cluster analysis.
+			</p>
+
+
+			<h2>Usage</h2>
+
+
+			<p>
+			The keyword analysis first finds all words within the statements that occur at least twice. After that, statements are listed that contain a keyword. A dual listing is presented: on top you can scroll through statement pairs whereas at the bottom you can view a list of the matches.
+			</p>
+
+
+			<p>
+			With the settings tab you can fine tune the analyses. 
+
+			The stopwords filter skips common English words such as "the", "a", "he" "do", etc. in the analysis operation.
+
+			Since purpose of the similarity analysis here is to find links or mergers, you can opt to not display statements that are already linked. 
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Similarity_analysis_metric"></a><div class="hfSection"><h2>Similarity analysis metric</h2><h2>Purpose</h2>
+			<p>
+			The analysis for similarity discussed here is about text similarity of statement pairs for the purpose of finding undiscovered links or statements that can be merged.
+
+			Both text similarity and other similarity types (e.g. shared neighbours) are also integral part of cluster analysis.
+			</p>
+
+
+			<h2>Usage</h2>
+
+
+			<p>
+			Using the Jaccard index, statement pairs are displayed that are x-% similar. Similarity refers to how many words they have in common.
+			</p>
+
+
+			<p>
+			With the settings tab you can fine tune the analyses. 
+
+			The Jaccard threshold option sets that statement pairs must be at least that similar in order to be displayed.
+
+			The stopwords filter skips common English words such as "the", "a", "he" "do", etc. in the analysis operation.
+
+			Since purpose of the similarity analysis here is to find links or mergers, you can opt to not display statements that are already linked. 
+			</p>
+
+			<p>
+			Notice: a computer does not know the concept of a word. E.g. this "random line of text", is considered as one unit or string. Therefore, some (internal only) changes during the calculation are made:
+			</p>
+			<ul>
+			<li>all characters that are not alphanumeric or white spaces are replaced by white spaces</li>
+			<li>consecutive white spaces are collapsed</li>
+			<li>white spaces become word boundaries</li>
+			</ul>
+
+			<p>
+			One positive side effect is that phrases like "apples/peaches" or "problem-solving" become actually two words. 
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Similarity_analysis_word_overlap"></a><div class="hfSection"><h2>Similarity analysis word overlap</h2><h2>Purpose</h2>
+			<p>
+			The analysis for similarity discussed here is about text similarity of statement pairs for the purpose of finding undiscovered links or statements that can be merged.
+
+			Both text similarity and other similarity types (e.g. shared neighbours) are also integral part of cluster analysis.
+			</p>
+
+
+			<h2>Usage</h2>
+
+
+			<p>
+			The simple world overlap lists all statement pairs that have any word in common.
+			</p>
+
+
+			<p>
+			With the settings tab you can fine tune the analyses. 
+
+			The stopwords filter skips common English words such as "the", "a", "he" "do", etc. in the analysis operation.
+
+			Since purpose of the similarity analysis here is to find links or mergers, you can opt to not display statements that are already linked. 
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Summary_statistics"></a><div class="hfSection"><h2>Summary statistics</h2><p><strong>Overall statistics</strong></p>
+
+			<p><strong>Number of statements / links</strong></p>
+			<p>
+			These statistics are strongly correlated with how the underlying map data were obtained. If it were primary data, you probably have gained them by interviewing. Factors such as duration or structure of the interview impact on the total numbers of statements/links rather than the "cognitive complexity" of the interviewee. If you obtained your data from text sources, investigate their contexts. How were they obtained and by whom? Do they summarise? Do they elaborate? Again, do not conclude about cognitive complexity without careful analysis.
+			</p>
+
+
+			<p><strong>Links per statement</strong></p>
+			<p>
+			Although there is no empirical basis, mapping guidelines based on practical experience suggest that a usual ratio is between 1.15 and 1.2. Deviations may just be rooted in the nature of the map. But they may also indicate improvement potential. A high ratio may suggest that you have redundant links. It suffices for instance if you map: A-&gt;B-&gt;C. There is no need for linking A-&gt;C since this is implicit in A-&gt;B-&gt;C. <br>
+			<strong>However</strong>, this is only valid for cognitive maps of individuals. In a cause map composed of many individual cognitive maps, different people may draw different paths of causality. Whether redundant links are in fact redundant depends on the agreement of the map stakeholders.
+			</p>
+
+			<p><strong>Head and tail statements</strong></p>
+			<p>
+			Head statements are those with only statements linking in to them. Tail statements are those with only statements linking out of them.
+			</p>
+
+
+			<p><strong>Unlinked statements</strong></p>
+			<p>
+			Statement that do not link to and do not receive links from any other statement. The presence of unlinked statements would be unusual hence worth a look.
+			</p>
+
+
+			<p><strong>Heads per statements</strong></p>
+			<p>
+			The ratio tells you how many goals or values you have per statement.
+			</p>
+
+
+			<p><strong>Tails per statements</strong></p>
+			<p>
+			The ratio tells you how many options you have per statement.
+			</p>
+
+
+			<p><strong>Statement statistics</strong></p>
+
+			<p><strong>#</strong></p>
+			<p>
+			The statement number.
+			</p>
+
+
+			<p><strong>Txt</strong></p>
+			<p>
+			The text content of the statement.
+			</p>
+
+
+			<p><strong>Set/s</strong></p>
+			<p>
+			The set/s of the statement, if any.
+			</p>
+
+
+			<p><strong>Role</strong></p>
+			<p>
+			</p><ul>
+			<li>Transmitter: Statement has no connections coming in to itself but sends connections out.</li>
+			<li>Receiver: Statement has connections coming in to itself but does not send connections out.</li>
+			<li>Ordinary: Statement has connections coming in to itself and sends connections out.</li>
+			<li>Isolated: Statement has no connections coming in to itself and does not send connections out.</li>
+			</ul>
+			<p></p>
+
+
+			<p><strong>In-degree and Out-degree</strong></p>
+			<p>
+			In-degree is the number of statements that link into the statement in focus whereas out-degree is the number of statements it links to.
+			</p>
+
+
+			<h2>Usage</h2>
+			<p>The analysis window displays various data.</p>
+
+
+			<h3>Sources</h3>
+			<p>
+			Eden, C., Ackermann, F. and Cropper, S. (1992), "The Analysis of Cause Maps", Journal of Management Studies, Vol. 29 No. 3, pp. 309�324.
+			</p><p><a href="#top">Back to top...</a></p></div>
+			<a name="Word_count_analysis"></a><div class="hfSection"><h2>Word count analysis</h2><h3>Purpose</h3>
+			<p>
+			Among the strengths of Causal Cognitive Mapping is its capacity to summarise a complex issue. But even if that was not of concern to you, statements that contain too many words make working with the map tedious.
+			<br><br>
+			Therefore, the recommended word count per each statement lies between 8 and 12 depending on mapping guidelines.
+			</p>
+
+
+			<h3>Usage</h3>
+			<p>
+			In the analysis window you can set a desired word count threshold. If the word count of a statement is higher than the threshold, it will be listed. 
+
+			You can choose to double the threshold for statements that contain a bipolar contrast.
+			</p>
+
+
+			<h3>Sources</h3>
+
+			<p>Reynolds, M. and Holwell. S. (2010) "Systems Approaches to Managing Change: A Practical Guide", Springer, London.</p><p><a href="#top">Back to top...</a></p></div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<script>
+$("#hfContainer").tabs();	
+</script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+#nodeContainer
+{
+	clear:both; 
+	position: absolute; 
+
+	top: 0px;
+	left: 0px;
+
+	width: 150px; 
+	height: 50px; 
+	
+	pointer-events: none;
+}
+ 
+.node 
+{
+	pointer-events: auto;	
+	
+	font-family: Helvetica;
+	xxxfont-family: Lucida, 'Lucida Console', Monaco, monospace;
+	
+	XXXdisplay:flex;
+	XXXjustify-content:center;
+	XXXalign-items:center;
+
+	max-width: 150px;
+	min-height: 30px;
+
+	width: 120px;
+
+	
+
+	margin: 0;
+	padding: 2px;	
+	border-radius: 5px;
+
+	text-align: center;
+	vertical-align: middle;
+}
+
+.nodeContent
+{
+	font-size: inherit;
+	overflow-wrap: break-word;
+}
+
+.nodeProperty
+{
+	pointer-events: none;
+	user-select: none;
+}
+
+.bubbleOnDrag
+{
+	border-style: dotted;
+	filter: "alpha(opacity = 66)"; /* IE 6-8 */ 
+	-ms-filter: "alpha(opacity = 66)"; /* ab IE 8 zusätzlich möglich */ 
+	opacity: 0.6; /* alle RICHTIGEN Browser und  IE 9+ */	
+}
+
+.bubbleSelected
+{	 
+	 box-shadow: 0 0 5px #0000FF; 
+}
+
+.bubbleSelectedLarge /* for gotoNode function */
+{
+	box-shadow: 0 0 15px #0000FF; 
+}
+
+.shadow_node
+{
+	z-index: 20000;
+	
+	max-width: 150px;
+	min-height: 30px;
+
+	width: 120px;
+	
+	background-color: #ffffff;
+	color:#bcbcbc; 
+
+	margin: 0;
+	padding: 2px;	
+	border: 1px solid #bcbcbc;
+	
+	font-style: italic;
+	
+	text-align: center;
+	vertical-align: middle;		
+}

@@ -5,7 +5,7 @@ This project is based on a prior closed source, commercial application known as 
 
 ## Start the application
 
-[Here.](https://joe-kerr.github.io/CausalMappingApplication/)
+[Here.](https://joe-kerr.github.io/CausalMappingApplication/app/index.html)
 
 
 ## Project status

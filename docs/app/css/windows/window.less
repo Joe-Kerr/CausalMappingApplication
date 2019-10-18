@@ -1,0 +1,193 @@
+@import "../vars";
+
+/* !!! temp (auto generated) !!! */
+
+.windowNodeStyleEditor{width: 250px;}
+.windowManipulateMap{width: 250px;}
+.windowMapHistory{width: 300px;}
+.windowDomainAnalysis{width: 400px;}
+.windowConfigurationEditor{width: 300px;}
+.windowSetEditor{width: 960px;}
+.windowNodeBrowser{width: 600px;}
+.windowGeneralSummary{width: 640px;}
+.windowBatchAdd{width: 250px;}
+.windowBatchEditLinks{width: 500px;}
+.windowBatchEditNodes{width: 500px;}
+.windowMergeNodes{width: 250px;}
+.windowSetAnalysis{width: 600px;}
+.windowLoopAnalysis{width: 250px;}
+.windowSignalWordAnalysis{width: 250px;}
+.windowWordCountAnalysis{width: 250px;}
+.windowCentralAnalysis{width: 660px;}
+.windowClusterAnalysis{width: 400px;}
+.windowSimilarityAnalysisOverlap{width: 400px;}
+.windowSimilarityAnalysisKeyWords{width: 400px;}
+.windowSimilarityAnalysisJaccard{width: 400px;}
+.windowSaveToImage{width: 250px;}
+
+/*
+	Windows transitions
+*/
+
+.inapp-window_transition-enter-active {
+  transition: all .3s ease;
+}
+.inapp-window_transition-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.inapp-window_transition-enter, .inapp-window_transition-leave-to {
+  transform: translateX(-500px);
+  opacity: 0;
+}
+
+
+/*
+	Windows common
+*/
+
+div > p:first-child {margin-top: 0px;}
+
+div.inapp-window {
+	min-width: 250px;	
+	position: fixed; 
+	border: 1px solid grey;
+	background-color: white;
+}
+
+.inapp-window_header {
+	background: rgb(216,220,226);
+	background: -moz-linear-gradient(top,  rgba(216,220,226,1) 0%, rgba(189,194,199,1) 36%, rgba(125,152,167,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(216,220,226,1) 0%,rgba(189,194,199,1) 36%,rgba(125,152,167,1) 100%);
+	background: linear-gradient(to bottom,  rgba(216,220,226,1) 0%,rgba(189,194,199,1) 36%,rgba(125,152,167,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8dce2', endColorstr='#7d98a7',GradientType=0 );
+	
+	color: black;	
+	
+	position: relative; 
+	width: 100%; 
+	height: 25px;		
+}
+
+.inapp-window_handle {	
+	display: inline-block;
+	
+	height: 20px; 	
+	width: calc(100% - 110px);
+	
+	padding-left: 5px; 
+	padding-top: 2px;
+
+	cursor: move; 	
+}
+
+.inapp-window_handle--left  {
+	border-right: 1px solid white;
+}
+
+.inapp-window_handle--right  {
+	border-left: 1px solid white; 
+}
+
+.inapp-window_button-bar {
+	display: inline-block;
+	width: 100px;
+}
+
+.inapp-window_button {
+	display: inline-block;	
+	text-align: right;
+	width: 20px; 
+	height: 20px; 
+	cursor: pointer;	
+}
+
+.inapp-window_button--left {
+
+}
+
+.inapp-window_button--right {
+
+}
+
+.inapp-window_button--icon {
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;	
+}
+
+.inapp-window_button--close {}
+.inapp-window_button--min {}
+.inapp-window_button--max {}
+
+.inapp-window_body {
+	width: 100%;
+	height: 100%;	
+}
+
+
+/*
+***************************************
+*/
+/*
+.appWindow
+{
+	position: fixed; 
+	min-width: 150px; 
+	top: 41px; 
+	left: 44px; 
+	border: 1px solid grey; 
+	background-color: white; 
+	box-shadow: @drop-shadow;
+}
+
+.window_handle
+{
+	border-right: 1px solid white; 
+	height: 20px; 
+	float: left; 
+	cursor: move; 
+	padding-left: 5px; 
+	padding-top: 2px;
+}
+
+.window_close
+{
+	width: 20px; 
+	height: 20px; 
+	float: right; 
+	margin-right: 5px; 
+	cursor:pointer
+}
+
+.window_minimise
+{
+	width: 20px; 
+	height: 20px; 
+	float: right; 
+	margin-right: 5px;
+	cursor:pointer;
+}
+
+.window_help
+{
+	width: 20px; 
+	height: 20px; 
+	float: right; 
+	margin-right: 5px;
+	margin-top: 1px;
+	cursor:pointer;
+}
+
+.window_close span, .window_minimise span, .window_help span
+{
+	display: inline-block;
+	cursor: pointer;
+}
+
+.window_content
+{
+	width: auto;
+	height: auto;
+	padding: 4px;
+}
+*/

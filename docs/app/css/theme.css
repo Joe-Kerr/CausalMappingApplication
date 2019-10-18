@@ -1,0 +1,503 @@
+/**
+Interface icons
+**/
+
+.icon_link
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") 0 0 no-repeat; 
+}
+
+.icon_mousecursor
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -30px 0 no-repeat; 
+}
+.icon_a_on_paper
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -60px 0 no-repeat; 
+}
+
+.icon_computers_connected
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -90px 0 no-repeat; 
+}
+
+.icon_typical_db
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -120px 0 no-repeat; 
+}
+
+.icon_buncho_textlines
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -150px 0 no-repeat; 
+}
+
+.icon_two_shirts
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -180px 0 no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_garbage_or_rubbish
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") 0 -30px no-repeat;
+    zoom:0.5;
+    -moz-transform:scale(0.5);	
+}
+
+.icon_text_edit
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -30px -30px no-repeat;
+    zoom:0.5;
+    -moz-transform:scale(0.5);	
+}
+
+.icon_painting_utensils
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -60px -30px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_pen_and_block
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -90px -30px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_plus_minus
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -120px -30px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_calculator
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -150px -30px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+.icon_two_windows_stacked
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -180px -30px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_arrow_right_bold
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") 0px -60px no-repeat;
+	zoom:0.5;
+    -moz-transform:scale(0.5);	
+}
+
+.icon_arrow_left_bold
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -30px -60px no-repeat;
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_a_to_b
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -60px -60px no-repeat; 
+}
+.icon_b_to_a
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -90px -60px no-repeat; 
+}
+.icon_resize
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -120px -60px no-repeat; 
+}
+.icon_undo_arrow
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -150px -60px no-repeat; 
+}
+
+.icon_general_toggle
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -180px -60px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_close
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") 0px -90px no-repeat; 
+}
+
+.icon_minimise
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") -30px -90px no-repeat; 
+}
+
+.icon_arrow_down
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") -60px -90px no-repeat; 
+}
+
+.icon_arrow_left
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") -90px -90px no-repeat; 
+}
+
+.icon_arrow_right
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") -120px -90px no-repeat; 
+}
+
+.icon_arrow_up
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") -150px -90px no-repeat; 
+}
+
+.icon_help
+{
+	margin: 0;
+	padding: 0;
+	width: 16px;
+	height: 16px;
+	background: transparent url("../img/uiset.png") -180px -90px no-repeat; 
+}
+
+.icon_eye_and_folder
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") 0px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_media_pause
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -30px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_media_play
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -60px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_media_stop
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -90px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_media_backward
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -120px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_media_forward
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -150px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_check_mark
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -180px -120px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_copy
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") 0px -150px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_paste
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -30px -150px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_straight_line_curved_line
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -60px -150px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_exclamation_mark
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -90px -150px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+.icon_gear_wheel
+{
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent url("../img/uiset.png") -120px -150px no-repeat; 
+    zoom:0.5;
+    -moz-transform:scale(0.5);		
+}
+
+
+/**
+HTML
+**/
+button
+{
+	background: none;
+	border: 1px solid black;
+	
+	margin: 1px;
+	
+	cursor: pointer;
+	
+	/*Ripple*/
+	position: relative;
+	overflow: hidden;	
+}
+button:hover 
+{
+  background: #f0edf0;
+  background-image: -webkit-linear-gradient(top, #f0edf0, #dbdbdb);
+  background-image: -moz-linear-gradient(top, #f0edf0, #dbdbdb);
+  background-image: -ms-linear-gradient(top, #f0edf0, #dbdbdb);
+  background-image: -o-linear-gradient(top, #f0edf0, #dbdbdb);
+  background-image: linear-gradient(to bottom, #f0edf0, #dbdbdb);
+  text-decoration: none;
+}
+
+button:after 
+{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple 
+{
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+button:focus:not(:active)::after 
+{
+  animation: ripple 1s ease-out;
+}
+
+
+/**
+Core modules
+**/
+
+/*
+App window
+*/
+.window_header
+{
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #CCCCCC),
+	color-stop(1, #AAAAAA)
+	);	
+	background-image: -o-linear-gradient(top, #CCCCCC 0%, #AAAAAA 100%);
+	background-image: -moz-linear-gradient(top, #CCCCCC 0%, #AAAAAA 100%);
+	background-image: -webkit-linear-gradient(top, #CCCCCC 0%, #AAAAAA 100%);
+	background-image: -ms-linear-gradient(top, #CCCCCC 0%, #AAAAAA 100%);
+	background-image: linear-gradient(top, #CCCCCC 0%, #AAAAAA 100%);
+	
+	color: black;
+}
+
+.click_wave
+{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  background-color: rgba(0,255,0,0.5);
+}
